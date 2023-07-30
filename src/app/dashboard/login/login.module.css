@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form input {
+  border: 2px solid #bbb;
+  background-color: #111;
+  color: inherit;
+  padding: 15px;
+  border-radius: 4px;
+}
+.form button {
+  background-color: #111;
+  color: inherit;
+  border: 2px solid #bbb;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.container button.githubLogin {
+  background-color: darkred;
+  color: #bbb;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
